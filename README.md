@@ -1,4 +1,4 @@
-![GitHub Logo](/image/logo.png)
+![GitHub Logo](/images/logo.png)
 
 #DIY Quadcopter embedded software
 
