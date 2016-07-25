@@ -340,7 +340,8 @@ void StartDefaultTask(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+	HAL_GPIO_TogglePin(LD3_GPIO_Port, LD3_Pin);
+    osDelay(1000);
   }
   /* USER CODE END 5 */ 
 }
