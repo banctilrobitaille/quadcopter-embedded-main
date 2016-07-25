@@ -72,6 +72,16 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h</name>
+			<type>1</type>
+			<locationURI>copy_PARENT/BSP/third_party/stm32cubef4/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h</locationURI>
+		</link>
+		<link>
+			<name>Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h</name>
+			<type>1</type>
+			<locationURI>copy_PARENT/BSP/third_party/stm32cubef4/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h</locationURI>
+		</link>
+		<link>
 			<name>Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h</name>
 			<type>1</type>
 			<locationURI>copy_PARENT/BSP/third_party/stm32cubef4/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h</locationURI>
@@ -80,6 +90,16 @@
 			<name>Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_usart.h</name>
 			<type>1</type>
 			<locationURI>copy_PARENT/BSP/third_party/stm32cubef4/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_usart.h</locationURI>
+		</link>
+		<link>
+			<name>Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c</name>
+			<type>1</type>
+			<locationURI>copy_PARENT/BSP/third_party/stm32cubef4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c</locationURI>
+		</link>
+		<link>
+			<name>Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c</name>
+			<type>1</type>
+			<locationURI>copy_PARENT/BSP/third_party/stm32cubef4/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c</locationURI>
 		</link>
 		<link>
 			<name>Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c</name>
