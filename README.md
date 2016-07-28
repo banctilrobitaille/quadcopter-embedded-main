@@ -1,6 +1,6 @@
 ![GitHub Logo](/images/logo.png)
 
-#DIY Quadcopter embedded software
+#DIY Quadcopter embedded software [![Build Status](https://travis-ci.org/banctilrobitaille/quadcopter-embedded-main.svg?branch=master)](https://travis-ci.org/banctilrobitaille/quadcopter-embedded-main)
 
 ##Hardware
 *stm32f407g-dics1
