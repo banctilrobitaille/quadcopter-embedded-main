@@ -27,6 +27,110 @@ Discarded input sections
  .bss           0x00000000        0x0 Src\main.o
  .text.Error_Handler
                 0x00000000        0x2 Src\main.o
+ .text          0x00000000        0x0 Src\Utils\Source\NMEAFrameFactory.o
+ .data          0x00000000        0x0 Src\Utils\Source\NMEAFrameFactory.o
+ .bss           0x00000000        0x0 Src\Utils\Source\NMEAFrameFactory.o
+ .debug_line    0x00000000        0x0 Src\Utils\Source\NMEAFrameFactory.o
+ .debug_str     0x00000000        0x0 Src\Utils\Source\NMEAFrameFactory.o
+ .comment       0x00000000       0x83 Src\Utils\Source\NMEAFrameFactory.o
+ .ARM.attributes
+                0x00000000       0x39 Src\Utils\Source\NMEAFrameFactory.o
+ .text          0x00000000        0x0 Src\Utils\Source\GeoTrackingUtils.o
+ .data          0x00000000        0x0 Src\Utils\Source\GeoTrackingUtils.o
+ .bss           0x00000000        0x0 Src\Utils\Source\GeoTrackingUtils.o
+ .debug_line    0x00000000        0x0 Src\Utils\Source\GeoTrackingUtils.o
+ .debug_str     0x00000000        0x0 Src\Utils\Source\GeoTrackingUtils.o
+ .comment       0x00000000       0x83 Src\Utils\Source\GeoTrackingUtils.o
+ .ARM.attributes
+                0x00000000       0x39 Src\Utils\Source\GeoTrackingUtils.o
+ .text          0x00000000        0x0 Src\Devices\Source\Telemetry.o
+ .data          0x00000000        0x0 Src\Devices\Source\Telemetry.o
+ .bss           0x00000000        0x0 Src\Devices\Source\Telemetry.o
+ .debug_line    0x00000000        0x0 Src\Devices\Source\Telemetry.o
+ .debug_str     0x00000000        0x0 Src\Devices\Source\Telemetry.o
+ .comment       0x00000000       0x83 Src\Devices\Source\Telemetry.o
+ .ARM.attributes
+                0x00000000       0x39 Src\Devices\Source\Telemetry.o
+ .text          0x00000000        0x0 Src\Devices\Source\Motor.o
+ .data          0x00000000        0x0 Src\Devices\Source\Motor.o
+ .bss           0x00000000        0x0 Src\Devices\Source\Motor.o
+ .debug_line    0x00000000        0x0 Src\Devices\Source\Motor.o
+ .debug_str     0x00000000        0x0 Src\Devices\Source\Motor.o
+ .comment       0x00000000       0x83 Src\Devices\Source\Motor.o
+ .ARM.attributes
+                0x00000000       0x39 Src\Devices\Source\Motor.o
+ .text          0x00000000        0x0 Src\Devices\Source\InertialStation.o
+ .data          0x00000000        0x0 Src\Devices\Source\InertialStation.o
+ .bss           0x00000000        0x0 Src\Devices\Source\InertialStation.o
+ .debug_line    0x00000000        0x0 Src\Devices\Source\InertialStation.o
+ .debug_str     0x00000000        0x0 Src\Devices\Source\InertialStation.o
+ .comment       0x00000000       0x83 Src\Devices\Source\InertialStation.o
+ .ARM.attributes
+                0x00000000       0x39 Src\Devices\Source\InertialStation.o
+ .text          0x00000000        0x0 Src\Devices\Source\Gyroscope.o
+ .data          0x00000000        0x0 Src\Devices\Source\Gyroscope.o
+ .bss           0x00000000        0x0 Src\Devices\Source\Gyroscope.o
+ .debug_line    0x00000000        0x0 Src\Devices\Source\Gyroscope.o
+ .debug_str     0x00000000        0x0 Src\Devices\Source\Gyroscope.o
+ .comment       0x00000000       0x83 Src\Devices\Source\Gyroscope.o
+ .ARM.attributes
+                0x00000000       0x39 Src\Devices\Source\Gyroscope.o
+ .text          0x00000000        0x0 Src\Devices\Source\Gps.o
+ .data          0x00000000        0x0 Src\Devices\Source\Gps.o
+ .bss           0x00000000        0x0 Src\Devices\Source\Gps.o
+ .debug_line    0x00000000        0x0 Src\Devices\Source\Gps.o
+ .debug_str     0x00000000        0x0 Src\Devices\Source\Gps.o
+ .comment       0x00000000       0x83 Src\Devices\Source\Gps.o
+ .ARM.attributes
+                0x00000000       0x39 Src\Devices\Source\Gps.o
+ .text          0x00000000        0x0 Src\Devices\Source\Compass.o
+ .data          0x00000000        0x0 Src\Devices\Source\Compass.o
+ .bss           0x00000000        0x0 Src\Devices\Source\Compass.o
+ .debug_line    0x00000000        0x0 Src\Devices\Source\Compass.o
+ .debug_str     0x00000000        0x0 Src\Devices\Source\Compass.o
+ .comment       0x00000000       0x83 Src\Devices\Source\Compass.o
+ .ARM.attributes
+                0x00000000       0x39 Src\Devices\Source\Compass.o
+ .text          0x00000000        0x0 Src\Devices\Source\Barometer.o
+ .data          0x00000000        0x0 Src\Devices\Source\Barometer.o
+ .bss           0x00000000        0x0 Src\Devices\Source\Barometer.o
+ .debug_line    0x00000000        0x0 Src\Devices\Source\Barometer.o
+ .debug_str     0x00000000        0x0 Src\Devices\Source\Barometer.o
+ .comment       0x00000000       0x83 Src\Devices\Source\Barometer.o
+ .ARM.attributes
+                0x00000000       0x39 Src\Devices\Source\Barometer.o
+ .text          0x00000000        0x0 Src\Devices\Source\Accelerometer.o
+ .data          0x00000000        0x0 Src\Devices\Source\Accelerometer.o
+ .bss           0x00000000        0x0 Src\Devices\Source\Accelerometer.o
+ .debug_line    0x00000000        0x0 Src\Devices\Source\Accelerometer.o
+ .debug_str     0x00000000        0x0 Src\Devices\Source\Accelerometer.o
+ .comment       0x00000000       0x83 Src\Devices\Source\Accelerometer.o
+ .ARM.attributes
+                0x00000000       0x39 Src\Devices\Source\Accelerometer.o
+ .text          0x00000000        0x0 Src\Controllers\Source\TelemetryController.o
+ .data          0x00000000        0x0 Src\Controllers\Source\TelemetryController.o
+ .bss           0x00000000        0x0 Src\Controllers\Source\TelemetryController.o
+ .debug_line    0x00000000        0x0 Src\Controllers\Source\TelemetryController.o
+ .debug_str     0x00000000        0x0 Src\Controllers\Source\TelemetryController.o
+ .comment       0x00000000       0x83 Src\Controllers\Source\TelemetryController.o
+ .ARM.attributes
+                0x00000000       0x39 Src\Controllers\Source\TelemetryController.o
+ .text          0x00000000        0x0 Src\Controllers\Source\StabilityController.o
+ .data          0x00000000        0x0 Src\Controllers\Source\StabilityController.o
+ .bss           0x00000000        0x0 Src\Controllers\Source\StabilityController.o
+ .debug_line    0x00000000        0x0 Src\Controllers\Source\StabilityController.o
+ .debug_str     0x00000000        0x0 Src\Controllers\Source\StabilityController.o
+ .comment       0x00000000       0x83 Src\Controllers\Source\StabilityController.o
+ .ARM.attributes
+                0x00000000       0x39 Src\Controllers\Source\StabilityController.o
+ .text          0x00000000        0x0 Src\Controllers\Source\MotorController.o
+ .data          0x00000000        0x0 Src\Controllers\Source\MotorController.o
+ .bss           0x00000000        0x0 Src\Controllers\Source\MotorController.o
+ .debug_line    0x00000000        0x0 Src\Controllers\Source\MotorController.o
+ .debug_str     0x00000000        0x0 Src\Controllers\Source\MotorController.o
+ .comment       0x00000000       0x83 Src\Controllers\Source\MotorController.o
+ .ARM.attributes
+                0x00000000       0x39 Src\Controllers\Source\MotorController.o
  .text          0x00000000        0x0 Src\Commons\stm32f4xx_it.o
  .data          0x00000000        0x0 Src\Commons\stm32f4xx_it.o
  .bss           0x00000000        0x0 Src\Commons\stm32f4xx_it.o
@@ -1050,6 +1154,19 @@ Linker script and memory map
 LOAD c:/program files (x86)/atollic/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7e-m/fpu/crti.o
 LOAD c:/program files (x86)/atollic/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7e-m/fpu/crtbegin.o
 LOAD Src\main.o
+LOAD Src\Utils\Source\NMEAFrameFactory.o
+LOAD Src\Utils\Source\GeoTrackingUtils.o
+LOAD Src\Devices\Source\Telemetry.o
+LOAD Src\Devices\Source\Motor.o
+LOAD Src\Devices\Source\InertialStation.o
+LOAD Src\Devices\Source\Gyroscope.o
+LOAD Src\Devices\Source\Gps.o
+LOAD Src\Devices\Source\Compass.o
+LOAD Src\Devices\Source\Barometer.o
+LOAD Src\Devices\Source\Accelerometer.o
+LOAD Src\Controllers\Source\TelemetryController.o
+LOAD Src\Controllers\Source\StabilityController.o
+LOAD Src\Controllers\Source\MotorController.o
 LOAD Src\Commons\stm32f4xx_it.o
 LOAD Src\Commons\stm32f4xx_hal_timebase_TIM.o
 LOAD Src\Commons\stm32f4xx_hal_msp.o
@@ -1647,24 +1764,24 @@ LOAD c:/program files (x86)/atollic/truestudio for arm 5.4.0/armtools/bin/../lib
                 0x0000046f       0x22 c:/program files (x86)/atollic/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7e-m/fpu/crtn.o
 OUTPUT(QuadcopterMain.elf elf32-littlearm)
 
-.debug_info     0x00000000     0xeef2
- .debug_info    0x00000000     0x11b1 Src\main.o
- .debug_info    0x000011b1      0x5ca Src\Commons\stm32f4xx_it.o
- .debug_info    0x0000177b      0xb86 Src\Commons\stm32f4xx_hal_timebase_TIM.o
- .debug_info    0x00002301      0x413 Src\Commons\stm32f4xx_hal_msp.o
- .debug_info    0x00002714     0x2609 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
- .debug_info    0x00004d1d      0x486 Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o
- .debug_info    0x000051a3      0x54d Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.o
- .debug_info    0x000056f0      0x298 Middlewares\Third_Party\FreeRTOS\Source\list.o
- .debug_info    0x00005988     0x1e7a Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.o
- .debug_info    0x00007802     0x1278 Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o
- .debug_info    0x00008a7a     0x3403 Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o
- .debug_info    0x0000be7d      0xc7f Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o
- .debug_info    0x0000cafc      0x70e Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o
- .debug_info    0x0000d20a      0xe76 Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o
- .debug_info    0x0000e080      0x912 Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o
- .debug_info    0x0000e992      0x4a5 Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.o
- .debug_info    0x0000ee37       0xbb Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\gcc\startup_stm32f407xx.o
+.debug_info     0x00000000     0xeef1
+ .debug_info    0x00000000     0x11b0 Src\main.o
+ .debug_info    0x000011b0      0x5ca Src\Commons\stm32f4xx_it.o
+ .debug_info    0x0000177a      0xb86 Src\Commons\stm32f4xx_hal_timebase_TIM.o
+ .debug_info    0x00002300      0x413 Src\Commons\stm32f4xx_hal_msp.o
+ .debug_info    0x00002713     0x2609 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
+ .debug_info    0x00004d1c      0x486 Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o
+ .debug_info    0x000051a2      0x54d Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.o
+ .debug_info    0x000056ef      0x298 Middlewares\Third_Party\FreeRTOS\Source\list.o
+ .debug_info    0x00005987     0x1e7a Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.o
+ .debug_info    0x00007801     0x1278 Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o
+ .debug_info    0x00008a79     0x3403 Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o
+ .debug_info    0x0000be7c      0xc7f Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o
+ .debug_info    0x0000cafb      0x70e Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o
+ .debug_info    0x0000d209      0xe76 Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o
+ .debug_info    0x0000e07f      0x912 Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o
+ .debug_info    0x0000e991      0x4a5 Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.o
+ .debug_info    0x0000ee36       0xbb Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\gcc\startup_stm32f407xx.o
 
 .debug_abbrev   0x00000000     0x2416
  .debug_abbrev  0x00000000      0x2c5 Src\main.o
@@ -1756,24 +1873,24 @@ OUTPUT(QuadcopterMain.elf elf32-littlearm)
  .debug_ranges  0x00000e20       0x18 Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.o
  .debug_ranges  0x00000e38       0x20 Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\gcc\startup_stm32f407xx.o
 
-.debug_line     0x00000000     0x542b
- .debug_line    0x00000000      0x389 Src\main.o
- .debug_line    0x00000389      0x24d Src\Commons\stm32f4xx_it.o
- .debug_line    0x000005d6      0x27a Src\Commons\stm32f4xx_hal_timebase_TIM.o
- .debug_line    0x00000850      0x1db Src\Commons\stm32f4xx_hal_msp.o
- .debug_line    0x00000a2b      0xb96 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
- .debug_line    0x000015c1      0x371 Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o
- .debug_line    0x00001932      0x33d Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.o
- .debug_line    0x00001c6f      0x23f Middlewares\Third_Party\FreeRTOS\Source\list.o
- .debug_line    0x00001eae      0x886 Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.o
- .debug_line    0x00002734      0x745 Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o
- .debug_line    0x00002e79     0x121b Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o
- .debug_line    0x00004094      0x5a6 Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o
- .debug_line    0x0000463a      0x3bc Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o
- .debug_line    0x000049f6      0x3e0 Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o
- .debug_line    0x00004dd6      0x3b7 Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o
- .debug_line    0x0000518d      0x1f0 Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.o
- .debug_line    0x0000537d       0xae Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\gcc\startup_stm32f407xx.o
+.debug_line     0x00000000     0x5428
+ .debug_line    0x00000000      0x386 Src\main.o
+ .debug_line    0x00000386      0x24d Src\Commons\stm32f4xx_it.o
+ .debug_line    0x000005d3      0x27a Src\Commons\stm32f4xx_hal_timebase_TIM.o
+ .debug_line    0x0000084d      0x1db Src\Commons\stm32f4xx_hal_msp.o
+ .debug_line    0x00000a28      0xb96 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
+ .debug_line    0x000015be      0x371 Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o
+ .debug_line    0x0000192f      0x33d Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.o
+ .debug_line    0x00001c6c      0x23f Middlewares\Third_Party\FreeRTOS\Source\list.o
+ .debug_line    0x00001eab      0x886 Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.o
+ .debug_line    0x00002731      0x745 Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o
+ .debug_line    0x00002e76     0x121b Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o
+ .debug_line    0x00004091      0x5a6 Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o
+ .debug_line    0x00004637      0x3bc Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o
+ .debug_line    0x000049f3      0x3e0 Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o
+ .debug_line    0x00004dd3      0x3b7 Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o
+ .debug_line    0x0000518a      0x1f0 Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.o
+ .debug_line    0x0000537a       0xae Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\gcc\startup_stm32f407xx.o
 
 .debug_str      0x00000000     0x4443
  .debug_str     0x00000000     0x10aa Src\main.o
