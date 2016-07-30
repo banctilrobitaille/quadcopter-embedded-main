@@ -14,6 +14,4 @@
 #ifndef MOTORCONTROLLER_H_
 #define MOTORCONTROLLER_H_
 
-
-
 #endif /* MOTORCONTROLLER_H_ */
