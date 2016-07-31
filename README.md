@@ -3,11 +3,11 @@
 #DIY Quadcopter embedded software 
 
 ##Hardware
-*stm32f407g-dics1
+* stm32f407g-dics1
 
 ##Software
-*stmcube
-*FreeRTOS
+* stmcube
+* FreeRTOS
 
 ##Contributing
 
