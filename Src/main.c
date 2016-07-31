@@ -13,6 +13,8 @@
 /*                               Includes                                     */
 /******************************************************************************/
 #include <CommonIncludes.h>
+#include <Telemetry.h>
+#include <TelemetryManager.h>
 /******************************************************************************/
 /*                            Local Constants                                 */
 /******************************************************************************/
@@ -44,14 +46,12 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
 
-  osThreadDef(ledTask, StartDefaultTask, osPriorityNormal, 0, 128);
-  ledTaskHandle = osThreadCreate(osThread(ledTask), NULL);
+  Create_System_Tasks();
 
   /* Start scheduler */
   osKernelStart();
 
   /* We should never get here as control is now taken by the scheduler */
-
   while (1)
   {
   }
@@ -138,7 +138,7 @@ void Create_System_Tasks(){
 
 	if(START_TELEMETRY || START_ALL_TASKS){
 		osThreadDef(TELEMETRY_TASK,
-				StartDefaultTask,
+				Start_Telemetry_Task,
 				TELEMETRY_TASK_PRIORITY,
 				0,
 				TELEMETRY_TASK_STACK_SIZE);
@@ -147,12 +147,15 @@ void Create_System_Tasks(){
 
 	if(START_TELEMETRY_CONTROLLER || START_ALL_TASKS){
 		osThreadDef(TELEMETRY_MANAGER_TASK,
-				StartDefaultTask,
+				Start_Telemetry_Manager_Task,
 				TELEMETRY_MANAGER_TASK_PRIORITY,
 				0,
 				TELEMETRY_MANAGER_TASK_STACK_SIZE);
 		telemetryManagerTaskHandle = osThreadCreate(osThread(TELEMETRY_MANAGER_TASK), NULL);
 	}
+
+	osThreadDef(ledTask, StartDefaultTask, osPriorityNormal, 0, 128);
+	ledTaskHandle = osThreadCreate(osThread(ledTask), NULL);
 }
 
 /**
@@ -181,19 +184,3 @@ void Error_Handler(void)
   {
   }
 }
-
-#ifdef USE_FULL_ASSERT
-
-/**
-   * @brief Reports the name of the source file and the source line number
-   * where the assert_param error has occurred.
-   * @param file: pointer to the source file name
-   * @param line: assert_param error line source number
-   * @retval None
-   */
-void assert_failed(uint8_t* file, uint32_t line)
-{
-}
-
-#endif
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

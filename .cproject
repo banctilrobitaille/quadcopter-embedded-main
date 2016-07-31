@@ -45,13 +45,14 @@
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 									<listOptionValue builtIn="false" value="../Src/Utils"/>
 									<listOptionValue builtIn="false" value="../Src/Devices"/>
-									<listOptionValue builtIn="false" value="../Src/Controllers"/>
 									<listOptionValue builtIn="false" value="../Src/Devices/Headers"/>
 									<listOptionValue builtIn="false" value="../Src/Devices/Abstract/Headers"/>
 									<listOptionValue builtIn="false" value="../Src/Models/Headers"/>
 									<listOptionValue builtIn="false" value="../Src/Configurations/ThirdParty"/>
 									<listOptionValue builtIn="false" value="../Src/Configurations/QuadcopterConfigurations"/>
 									<listOptionValue builtIn="false" value="../Src/Devices/Commons"/>
+									<listOptionValue builtIn="false" value="../Src/DevicesData/Headers"/>
+									<listOptionValue builtIn="false" value="../Src/Managers/Headers"/>
 								</option>
 								<option id="com.atollic.truestudio.gcc.symbols.defined.1670122205" name="Defined symbols" superClass="com.atollic.truestudio.gcc.symbols.defined" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__weak=&quot;__attribute__((weak))&quot;"/>

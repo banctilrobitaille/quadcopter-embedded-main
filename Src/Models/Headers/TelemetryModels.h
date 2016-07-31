@@ -14,12 +14,14 @@
 /******************************************************************************/
 
 /******************************************************************************/
-/*                            Local Constants                                 */
+/*                           Global Constants                                 */
 /******************************************************************************/
 #define START_FLAG "~"
+#define RECEIVE_FRAME_LENGTH	10
+#define SEND_FRAME_LENGT		10
 
 typedef enum {
-	RISE, LEFT, RIGHT, LAND,
+	RISE, LEFT, RIGHT, LAND, AHEAD, BACKWARD
 }Command;
 
 typedef struct {

@@ -22,6 +22,10 @@
 #define TRUE		1
 #define FALSE		0
 
+/******************************************************************************/
+/*                           	 FLIGHT MODE                                  */
+/******************************************************************************/
+typedef enum {ASSISTED, UNASSISTED} FlightMode;
 
 /******************************************************************************/
 /*                           	 TRANSMITER                                   */
@@ -52,5 +56,13 @@
 /******************************************************************************/
 #define START_TELEMETRY_CONTROLLER			TRUE
 #define START_INERTIALSTATION_CONTROLLER	TRUE
+
+/******************************************************************************/
+/*                             INTERRUPT PRIORITIES                           */
+/******************************************************************************/
+#define UART_RECEIVE_IT_PRIORITY		5
+#define UART_RECEIVE_IT_SUB_PRIORITY	0
+
+
 
 #endif /* SYSTEMCONFIGURATIONS_H_ */
